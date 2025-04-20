@@ -232,7 +232,7 @@ const ProAppStudyPlanner: React.FC = () => {
         <div className="grid grid-cols-3 gap-3 mb-6">
           <div className="bg-white p-3 rounded-lg shadow-sm">
             <div className="text-xs text-gray-500 mb-1">Today's Tasks</div>
-            <div className="text-xl font-bold">3/5</div>
+            <div className="text-md font-bold">3/5</div>
             <div className="w-full bg-gray-200 rounded-full h-1.5 mt-2">
               <div
                 className="bg-teal-500 h-1.5 rounded-full"
@@ -242,14 +242,14 @@ const ProAppStudyPlanner: React.FC = () => {
           </div>
           <div className="bg-white p-3 rounded-lg shadow-sm">
             <div className="text-xs text-gray-500 mb-1">Study Streak</div>
-            <div className="text-xl font-bold">7 days</div>
+            <div className="text-md font-bold">7 days</div>
             <div className="flex items-center mt-2">
               <i className="fas fa-fire text-orange-500"></i>
             </div>
           </div>
           <div className="bg-white p-3 rounded-lg shadow-sm">
             <div className="text-xs text-gray-500 mb-1">XP Points</div>
-            <div className="text-xl font-bold">450</div>
+            <div className="text-md font-bold">450</div>
             <div className="flex items-center mt-2">
               <i className="fas fa-star text-yellow-500"></i>
             </div>

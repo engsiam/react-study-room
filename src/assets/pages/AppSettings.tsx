@@ -70,7 +70,7 @@ const AppSettings: React.FC = () => {
           </div>
           <div className="ml-4 flex-1">
             <h2 className="font-medium text-lg">Alexander Mitchell</h2>
-            <p className="text-gray-500 text-sm">alex.mitchell@example.com</p>
+            <p className="text-gray-500 text-xs">alex.mitchell@example.com</p>
             <button className="mt-2 text-blue-500 text-sm font-medium cursor-pointer">
               Edit Profile
             </button>
